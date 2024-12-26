@@ -6,8 +6,8 @@ const RBtn = document.querySelector('.RBtn');
 const ReBtn = document.querySelector('.ReBtn');
 const pomocount = document.querySelector('.pomocounts');
 
-const work_time = 2 * 60;
-const break_time = 0.1 * 60;
+const work_time = 25 * 60;
+const break_time = 5 * 60;
 let timerID = null
 let oneround = false
 let totalround = 0;
