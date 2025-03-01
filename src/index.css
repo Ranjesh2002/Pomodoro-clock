@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Custom animations */
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse {
+  animation: pulse 4s infinite;
+}
